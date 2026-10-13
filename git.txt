@@ -1,0 +1,107 @@
+Features of Git:
+
+Git is a distributed version control system used to manage and track changes in software projects.
+
+Version Control – Keeps track of changes made to files.
+
+Distributed System – Every developer can have a complete copy of the project and its history.
+
+Fast – Most Git operations are performed locally, so they are quick.
+
+Branching – Allows developers to create separate branches for developing new features.
+
+Merging – Combines changes from different branches into one branch.
+
+Backup & Recovery – Previous versions can be recovered if something goes wrong.
+
+Collaboration – Multiple developers can work on the same project.
+
+Track Changes – Shows what was added, modified, or deleted.
+
+Commit History – Maintains a history of saved changes with commit messages.
+
+Works with Remote Repositories – Can connect to platforms such as GitHub and GitLab.
+    Git Repository
+
+
+
+                     │
+                     ↓
+               git init
+                     │
+                     ↓
+              Create Hello.java
+                     │
+                     ↓
+                git status
+                     │
+                     ↓
+             git add Hello.java
+                     │
+                     ↓
+               STAGING AREA
+                     │
+                     ↓
+       git commit -m "Added Hello Java program"
+                     │
+                     ↓
+             LOCAL REPOSITORY
+
+experiment 1
+ 
+Setting Up and Basic Commands Initialize a new Git repository in a directory. Create a new file and add it to the staging areaand commit the changes with an appropriate commit message
+
+
+
+
+1. Create repository
+       ↓
+2. Create a file
+       ↓
+3. Commit the file
+       ↓
+4. Create feature-branch
+       ↓
+5. Switch to feature-branch
+       ↓
+6. Make a change
+       ↓
+7. Commit the change
+       ↓
+8. Switch back to master
+       ↓
+9. Merge feature-branch into master
+
+
+For example:
+
+master branch
+     |
+     |-- edit index.html
+     |
+     |-- changes not committed
+     |
+     |-- git stash
+             ↓
+        changes temporarily saved
+             ↓
+        working directory becomes clean
+             ↓
+        switch to another branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
